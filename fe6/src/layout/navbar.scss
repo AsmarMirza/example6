@@ -1,0 +1,54 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    z-index: 2;
+    position: fixed;
+    margin-top: 40px;
+
+   
+}
+.navUl{
+    display: flex;
+    gap: 30px;
+    font-weight: bold;
+}
+.navContact{
+    display: flex;
+    gap: 10px;
+}
+.navIcon{
+    display: none;
+}
+.navBarIcon{
+    display: flex;
+    gap: 10px;
+    
+}
+
+@media screen and (max-width: 991px) {
+ .navIcon{
+    display: block;
+ }
+ .navUl{
+    display: none;
+ }
+ .navContact{
+    display: none;
+ 
+}
+  }
+
+
+  .esmer{
+    max-width: 1200px;
+    width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: white;
+gap: 50px;
+padding: 30px;
+  }
